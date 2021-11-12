@@ -1,5 +1,9 @@
 package com.unbosque.sistemainventario.service.serviceApi;
 
-public class UsuarioService {
+import com.unbosque.sistemainventario.model.Usuario;
 
+public interface UsuarioService {
+    
+    Usuario insertUsuario(Usuario usuario);
+   
 }
